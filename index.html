@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Security headers -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+
+  <!-- CSP will be set by Layout component -->
+
+  <!-- SEO tags -->
+  <title>Portfolio Website</title>
+  <meta name="description" content="Professional portfolio showcasing projects and skills">
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+
+  <!-- Open Graph / social media tags -->
+  <meta property="og:title" content="Portfolio Website">
+  <meta property="og:description" content="Professional portfolio showcasing projects and skills">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourportfolio.com">
+
+  <!-- Preconnect to any third-party domains -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <noscript>
+    <p>This website requires JavaScript to function properly. Please enable JavaScript in your browser settings.</p>
+  </noscript>
+</body>
+</html>
