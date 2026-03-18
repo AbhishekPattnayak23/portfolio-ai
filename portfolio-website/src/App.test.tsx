@@ -1,9 +1,20 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// Mock the router to prevent errors
+jest.mock('react-router-dom', () => ({
+  BrowserRouter: ({ children }: { children: React.ReactNode }) => <div>{children}</div>,
+  Routes: ({ children }: { children: React.ReactNode }) => <div>{children}</div>,
+  Route: () => <div />,
+}));
+
+// Mock the Layout and page components
+jest.mock('./components/layout/Layout', () => ({ children }: { children: React.ReactNode }) => (
+  <div data-testid="layout">{children}</div>
+));
+
+test('renders the app with layout', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const layoutElement = screen.getByTestId('layout');
+  expect(layoutElement).toBeInTheDocument();
 });
