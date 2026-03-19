@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "Text Generation Assistant",
+      "description": "A natural language processing model that can generate human-like text for various applications.",
+      "technologies": ["TensorFlow", "NLP", "Python"],
+      "projectType": "Text Generation",
+      "imageUrl": "/images/projects/text-gen.jpg",
+      "demoUrl": "https://example.com/text-demo",
+      "repoUrl": "https://github.com/example/text-gen",
+      "createdAt": "2023-01-15T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Image Synthesis Engine",
+      "description": "An AI system that creates realistic images from textual descriptions using diffusion models.",
+      "technologies": ["PyTorch", "Computer Vision", "React"],
+      "projectType": "Image Generation",
+      "imageUrl": "/images/projects/image-gen.jpg",
+      "demoUrl": "https://example.com/image-demo",
+      "repoUrl": "https://github.com/example/image-gen",
+      "createdAt": "2023-03-22T14:15:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Voice Assistant Framework",
+      "description": "A modular framework for building custom voice assistants with natural-sounding speech.",
+      "technologies": ["TensorFlow", "Speech Recognition", "JavaScript"],
+      "projectType": "Voice Assistant",
+      "imageUrl": "/images/projects/voice-assist.jpg",
+      "demoUrl": "https://example.com/voice-demo",
+      "repoUrl": "https://github.com/example/voice-assist",
+      "createdAt": "2023-02-10T09:45:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Code Generation Tool",
+      "description": "An AI-powered tool that generates code snippets from natural language descriptions.",
+      "technologies": ["PyTorch", "NLP", "TypeScript"],
+      "projectType": "Code Generation",
+      "imageUrl": "/images/projects/code-gen.jpg",
+      "demoUrl": "https://example.com/code-demo",
+      "repoUrl": "https://github.com/example/code-gen",
+      "createdAt": "2023-04-05T11:20:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Music Composition AI",
+      "description": "A deep learning system that composes original music in various styles and genres.",
+      "technologies": ["TensorFlow", "Audio Processing", "Python"],
+      "projectType": "Audio Generation",
+      "imageUrl": "/images/projects/music-gen.jpg",
+      "demoUrl": "https://example.com/music-demo",
+      "repoUrl": "https://github.com/example/music-gen",
+      "createdAt": "2023-05-18T16:40:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Multimodal Chat Application",
+      "description": "An interactive chat application that can understand and generate text, images, and audio.",
+      "technologies": ["React", "PyTorch", "Node.js", "WebSockets"],
+      "projectType": "Multimodal",
+      "imageUrl": "/images/projects/multimodal-chat.jpg",
+      "demoUrl": "https://example.com/chat-demo",
+      "repoUrl": "https://github.com/example/multimodal-chat",
+      "createdAt": "2023-06-30T13:10:00Z"
+    }
+  ]
+}
